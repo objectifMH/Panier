@@ -1,0 +1,279 @@
+body {
+			margin:0;
+			padding: 0;
+			background-color: ghostwhite;
+			//min-height: 100vh;
+		
+		}
+
+		body *{
+			box-sizing: border-box;
+			margin:0;
+			padding: 0;
+
+		}
+		a:link{
+			text-decoration: none;
+		}
+
+		/* Header */
+		header{
+			background-color: darkcyan;
+			height: 110px;
+			line-height: 110px;
+			font-size: 40px;
+			color:white;
+		}
+		.logoHeader{
+			position: relative;
+			margin: 0px 40px;
+    		position: relative;
+    		border : 3px solid white ;
+    		background-color: darkcyan;
+    		padding: 10px 7px;
+    		line-height: 50px;
+    		color: white;
+    		display: inline-block;
+    		width: 95%;
+		}
+		
+		.imgNav{
+			//border:3px solid grey;
+			width: 250px;
+			//height: 280px;
+			margin:15px;
+			display: inline-block;
+			//float: left;
+			border:3px solid darkcyan;
+		}
+		.menuHome{
+			display: relative;
+			display: inline-block;
+			float: right;
+			right: 10px;
+			color: white;
+
+		}
+		
+		/* Footer */
+		footer{
+			background-color: darkcyan;
+			height: 60px;
+			line-height: 60px;
+			font-size: 25px;
+			color:white;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+		main{
+			//min-height: 100vh;
+		}
+		
+
+		.footerGauche{
+			font-size: 15px;
+			margin-left: 15px;
+		}
+		.spanEspace{
+			width: 50px;
+			display: inline-block;
+			color:grey;
+			text-align: center;
+			font-size: 20px;
+			margin: 0px 15px;
+		}
+	
+    	.fa-envelope-o{
+			font-size:24px;
+    		padding: 5px 10px;
+    		float:right;
+    		bottom: -15px;
+    		position:relative;
+    		right:30px;
+    		transform: scale(1,1) ;
+			transition:transform 1s ease;
+			color: white;
+    	}
+
+    	.fa:hover{
+    		transform: scale(1.4,1.4);
+    	}
+		.fa-shopping-basket
+		{
+			font-size: 21px;
+			color: white;
+			top:5px;
+		}
+
+		.fa-sign-out,.fa-home{
+			color: white;
+			font-size: 23px;
+			top:5px;
+			margin:auto 25px;
+
+		}
+		.fa{
+    		font-size:24px;
+    		padding: 5px 10px;
+    		float:right;
+    		bottom: -15px;
+    		position:relative;
+    		right:30px;
+    		transform: scale(1,1) ;
+			transition:transform 1s ease;
+    	}
+
+		/* fin footer */
+		form{
+		    position: relative;
+    		transform: translate(103%, 10%);
+
+    		border: 5px solid RebeccaPurple;
+    		//box-shadow: 8px 8px 12px #aaa;
+    		border-radius: 0 0 0 20px;
+    		padding: 12px;
+    		width: 33%;
+    		font-size: 19px;
+    		background-color: white;
+    		color: black;
+		}
+		input{
+			//padding: 1px 3px 1px;
+			//margin: 10px 0px;
+			border-radius: 6px;
+			//height: 25px;
+			padding: 8px 6px;
+			border: 1px solid white;
+			background-color: darkcyan;
+			font-size: 15px;
+			width: 95%;
+			color: white;
+		}
+
+		#valide{
+			position: relative;
+			   
+			background: linear-gradient(indigo, darkolive);
+    		background-color: RebeccaPurple ;
+    		box-shadow: inset 0 1px 1px RebeccaPurple;
+    		border-radius: 0 0 0 12px;
+    		
+			padding: 7px 20px;
+    		font-weight: bold !important;
+    		font-size: 17px;
+    		color: white;
+    		//bottom: 10px;
+    		//right: 10px;
+    		//transform: translate(340%, 17%);
+    		float:right;
+    		margin: 5px 20px 0px 0px;
+
+		}
+		#AjoutPan{
+			position: relative;
+		    display: block;
+		    background-color: orange;
+		    //box-shadow: inset 0 2px 2px darkcyan;
+		    border-radius: 12px;
+		    //margin: 20px 6px;
+		    padding: 7px 20px;
+		    font-weight: bold !important;
+		    font-size: 17px;
+		    color: white;
+		    bottom: 10px;
+		    transform: translate(22%,0);
+		    
+		    border: 4px solid red;
+		    text-decoration:none; 
+		    width: 70%;
+
+		}
+
+		#validation{
+			text-align: center;
+			font-weight: 900 !important;
+			padding: 7px 20px;
+			border-radius: 0 0 0 12px;
+			box-shadow: 8px 8px 12px #aaa;
+		}
+		
+		.container{
+			height: 100%;
+			width: 100%;
+		}
+
+		.ColorRed{
+			color:red;
+			border-color: red;
+		}
+
+		.ColorOlive{
+			color:olive;
+			border-color: olive;
+
+		}
+		.ColorPurple{
+			color:purple;
+			border-color: purple;
+			border:3px solid purple;
+
+		}
+	/* Article */
+
+	
+	.containerArticle{
+			position: relative;
+			top: 25px;
+			left: 25%;
+			border:5px solid darkcyan;
+			width: 55%;
+			//height: 350px;
+			background:darkcyan ;
+			//height: 350px;
+	}
+	
+	img{
+			width: 360px;
+			//height: 290px;
+			border:3px solid white;
+			//float : left;
+			background-color: olive;
+			margin: 20px;
+
+		}
+
+	.containerTextDroite{
+		width: 40%;
+		float: right;
+		background-color: darkcyan;
+		border:2px solid white;
+		margin: 20px;
+		text-align: center;
+
+	}
+
+	.pArticle{
+		color: white;
+    	font-size: 17px;
+    	padding: 15px 10px;
+	}
+	
+
+	.pPrixArticle{
+		margin: 15px 35px;
+	    text-align: center;
+	    color: white;
+	    border: 2px solid white;
+	    font-size: 35px;
+	    margin-top: 20px;
+	}
+	
+	/* Panier */ 
+	.affPanier{
+		margin:20px;
+		border: 2px solid darkcyan;
+		color: darkcyan ;
+		background-color: orange;
+	}
+
